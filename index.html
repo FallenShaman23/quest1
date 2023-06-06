@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Задание 1</title>
+    </head>
+    <body>
+        <nav class="navbar1 navbar-light">
+            <div class="container-fluid">
+                <button class="hamburger hamburger-border--green" id="mobile-menu-btn">
+                    <div class="btn__hamb">
+                        <div></div>
+                    </div>
+                </button>
+                Текст
+            </div>
+          </nav>
+          <div>
+            <hr class="hr-horizontal-gradient-top">
+            <hr class="bold-hr">
+          </div>
+<h1>Табы</h1>
+          <div id="tabs">
+            <!-- Кнопки -->
+            <ul class="tabs-nav">
+                <li id="tab1" value="0"><a onClick="ButtonActive()"   id="tab1" href="#tab-1">Таб 1</a></li>
+                <li id="tab2" value="0"><a onClick="ButtonActive1()"  id="tab2" href="#tab-2">Таб 2</a></li>
+                <li id="tab3" value="0"><a onClick="ButtonActive2()"  href="#tab-3">Таб 3</a></li>
+                <li id="tab4" value="0"><a onClick="ButtonActive3()"  href="#tab-4">Таб 4</a></li>
+            </ul>	
+            
+            <!-- Контент -->
+            <div class="tabs-items">
+                <div class="tabs-item" id="tab-1">
+                    <div class="content">
+                        <ol class="tabs-item_content_numbered_list">
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    <li>Элемент 4</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="tabs-item" id="tab-2">
+                    <div class="content">
+                        <ol class="tabs-item_content_numbered_list">
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    <li>Элемент 4</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="tabs-item" id="tab-3">
+                    <div class="content">
+                        <ol class="tabs-item_content_numbered_list">
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    <li>Элемент 4</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                                <ul class="tabs-item_content_unordered_list">
+                                    <li>Элемент 1</li>
+                                    <li>Элемент 2</li>
+                                    <li>Элемент 3</li>
+                                    
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="tabs-item" id="tab-4">
+                    <div class="content">
+                    <ol class="tabs-item_content_numbered_list">
+                        <li>
+                            <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                            <ul class="tabs-item_content_unordered_list">
+                                <li>Элемент 1</li>
+                                <li>Элемент 2</li>
+                                <li>Элемент 3</li>
+                                
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                            <ul class="tabs-item_content_unordered_list">
+                                <li>Элемент 1</li>
+                                <li>Элемент 2</li>
+                                <li>Элемент 3</li>
+                                <li>Элемент 4</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="tab-item_content_heading">Заголовок нумерованного списка</a>
+                            <ul class="tabs-item_content_unordered_list">
+                                <li>Элемент 1</li>
+                                <li>Элемент 2</li>
+                                <li>Элемент 3</li>
+                                
+                            </ul>
+                        </li>
+                    </ol>
+                    </div>
+                </div>		
+            </div>
+        </div>
+        <button disabled class="btn-next" id="next">Продолжить</button>
+        <hr class="hr-horizontal-gradient-bottom">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+          <script src="js/tab.js"></script>
+    </body>
+</html>
